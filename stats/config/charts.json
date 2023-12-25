@@ -1,6 +1,6 @@
 {
     "template_values": {
-        "native_coin_symbol": "ETH"
+        "native_coin_symbol": "U2U"
     },
     "counters": {
         "total_blocks": {
