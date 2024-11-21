@@ -137,12 +137,12 @@ description = "Average size of blocks in bytes"
 units = "Bytes"
 update_schedule = "0 0 9 * * * *"
 
-[[lines.sections.charts]]
-id = "averageBlockRewards"
-title = "Average block rewards"
-description = "Average amount of distributed reward in tokens per day"
-units = "ETH"
-update_schedule = "0 0 20 * * * *"
+#[[lines.sections.charts]]
+#id = "averageBlockRewards"
+#title = "Average block rewards"
+#description = "Average amount of distributed reward in tokens per day"
+#units = "ETH"
+#update_schedule = "0 0 20 * * * *"
 
 
 [[lines.sections]]
