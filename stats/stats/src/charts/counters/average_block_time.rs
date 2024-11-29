@@ -33,7 +33,7 @@ impl ChartFullUpdater for AverageBlockTime {
                     ) as diff
                 FROM blocks b
                 WHERE b.timestamp != to_timestamp(0) AND consensus = true
-            ) t
+            ) t WHERE diff < 1000
             "#,
             vec![],
         ))
